@@ -1,0 +1,24 @@
+{
+  "name": "home-bakery",
+  "version": "1.0.0",
+  "description": "Home Bakery(Home for cake)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KyawThetNaing",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.13",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0"
+  }
+}
